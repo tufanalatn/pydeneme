@@ -23,7 +23,7 @@ print(df1.Quantity.min())
 df1 = df1[(df1['Quantity'] > 0)]
 print(df1.shape)
 print(df1.info())
-
+# TUFAN EKLEDI 
 
 def unique_counts(df1):
     for i in df1.columns:
