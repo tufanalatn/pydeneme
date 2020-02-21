@@ -1,5 +1,6 @@
 import warnings
 
+# deneme eklendi sadxece
 import pandas as pd
 
 warnings.filterwarnings('ignore')
@@ -19,7 +20,6 @@ df1 = df1[pd.notnull(df1['CustomerID'])]
 print(df1.shape)
 print(df1.UnitPrice.min())
 print(df1.Quantity.min())
-
 df1 = df1[(df1['Quantity'] > 0)]
 print(df1.shape)
 print(df1.info())
